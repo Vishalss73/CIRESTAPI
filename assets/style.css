@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
+
+body {
+  
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.form-display {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 400px;
+    margin-top: 200px;
+    border: 1px solid #ebf0f6;
+    padding: 27px 18px 30px;
+    border-radius: 10px;
+}
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-collapse {
+    flex-grow: 0 !important;
+}
+}
+.container-fluid {
+    max-width: 90%;
+}
+.nav-icon {
+    font-size: 30px;
+}
+.nav-icon span {
+    font-size: 20px;
+    color: #fff;
+}
